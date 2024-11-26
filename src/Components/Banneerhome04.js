@@ -14,7 +14,7 @@ const Banneerhome04 = () => {
             <div className="grid-me">
                 <div className="vide"></div>
                 <div className="sec01">
-                    <img src="./image/beaute.PNG" style={{ zIndex: -1 }} className="standard-image" alt="personnes agées dans piscine" />
+                    <img src="./image/beaute.jpg" style={{ zIndex: -1 }} className="standard-image" alt="personnes agées dans piscine" />
                 </div>
                     <div className="sec02">
                         <div>   
@@ -51,7 +51,7 @@ const Banneerhome04 = () => {
                     </div>        
                 </div>
                 <div className="sec04">
-                    <img src="./image/plage.png" style={{ zIndex: -1 }} class="standard-image" alt="personnes agées avec ballon" />
+                    <img src="./image/plage.PNG" style={{ zIndex: -1 }} class="standard-image" alt="personnes agées avec ballon" />
                 </div>
             </div>
 
