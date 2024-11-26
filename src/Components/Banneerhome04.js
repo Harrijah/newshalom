@@ -14,7 +14,7 @@ const Banneerhome04 = () => {
             <div className="grid-me">
                 <div className="vide"></div>
                 <div className="sec01">
-                    <img src="./image/beaute.JPG" style={{ zIndex: -1 }} className="standard-image" alt="personnes agées dans piscine" />
+                    <img src="./image/beaute.PNG" style={{ zIndex: -1 }} className="standard-image" alt="personnes agées dans piscine" />
                 </div>
                     <div className="sec02">
                         <div>   
