@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rajdhani&display=swap');
+
+$color00: whitesmoke;
+$color01: #FDFFFC;
+$color02: #D6D8FF;
+$color03: #ffecd6;
+$color04: #ffecd6c0;
+$color05: #faefe3; 
+$color06: #FDFFFC; 
+$color07: #ccb59b;
+$color08: #23293D;
+$color09: #75151E;
+$color10: #753649;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: $color00;
+    color: $color08;
+    font-family: Calibri;
+}
+@font-face{
+    font-family: pacifico;
+    src: url('../../public/Pacifico/Pacifico-Regular.ttf');
+    font-family: Rajdhani;
+    src: url('../../public/Rajdhani-Regular.ttf'); 
+}
+
+@mixin stdparams{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.separator01{
+  position: relative;
+  text-align: center;
+  margin: 10px auto;
+  width: 150px;
+  border-bottom: double 5px $color07;
+}
+.separator02{
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  border-bottom: double 5px $color07;
+}
+
+// ----------------------- menu
+.menucontainer01{
+    @include stdparams;
+}
+.menucontainer02{
+    // @include stdparams;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    // background-color: $color07;
+    .menulogo{
+        @include stdparams;
+        max-height: 50px;
+        max-width: 30%;
+        height: auto;
+        img{
+            height: 100%;
+        }
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        li{
+            display: inline-block;
+            a{
+                display: block;
+                height: 100%;
+                padding: 16px 30px;
+                text-decoration: none;
+                color: $color03;
+                &:hover{
+                    background: $color03;
+                    color: $color08;
+                }
+            }
+        }
+    }
+}
+
+// ------------------------- boutons
+.mybutton01{
+    display: block;
+    position: relative;
+    text-align: center;
+    min-width: 100px;
+    width: 80%;
+    max-width: 250px;
+    margin: 20px auto 0;
+    padding: 10px 30px;
+    border: solid 1px $color04;
+    border-radius: 50px;
+    background: $color07;
+    color: $color03;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .mybutton01:hover{
+    color: $color03;
+    text-decoration: none;
+    background: $color07;
+    border: solid 1px $color03;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px 3px, rgba(0, 0, 0, 0.06) 0px 2px 4px 3px;
+    cursor: pointer;
+  }
+  .mybutton01:active{
+    transform: scale(0.8);
+  }
+  a{
+    color: $color03;
+  }
+  
