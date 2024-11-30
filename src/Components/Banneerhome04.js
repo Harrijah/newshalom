@@ -34,7 +34,7 @@ const Banneerhome04 = () => {
                         
                     <div className="sec03">
                         <div>
-                            <div class="pousseoir">
+                            <div className="pousseoir02">
                                 <h3>En externat</h3>
                                 <p>
                                     Nous offrons désormais notre formule en externat pour les personnes âgées qui souhaitent rester chez elles tout en bénéficiant de nos services de qualité. Nous accueillons des personnes âgées <b>dès l'âge de 50 ans</b>, avec une équipe multidisciplinaire et conviviale pour les accompagner résidents dans leur quotidien.
@@ -48,7 +48,7 @@ const Banneerhome04 = () => {
                         </div>        
                     </div>
                     <div className="sec04">
-                        <img src="./image/plage.PNG" style={{ zIndex: -1 }} class="standard-image" alt="personnes agées avec ballon" />
+                        <img src="./image/plage.PNG" style={{ zIndex: -1 }} className="standard-image" alt="personnes agées avec ballon" />
                     </div>
                 </div>
 

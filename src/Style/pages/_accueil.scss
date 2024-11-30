@@ -322,11 +322,12 @@
   grid-template-areas: 
   "sec01 sec02 sec02"
   "sep sep sep"
-  "sec04 sec03 sec03";
+  "sec03 sec03 sec04";
   width: 80%;
   margin: auto;
   img{
     width: 90%;
+    margin: auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px 3px, rgba(0, 0, 0, 0.06) 0px 2px 4px 3px;
   }
 }
@@ -363,9 +364,18 @@
 .pousseoir{
   border-left: solid 6px $color07; 
   // border-radius: 10px 0 0 10px;
+  background: linear-gradient(90deg, #ffffff, $color00, $color00);
   padding: 20px;
   /* box-shadow: -8px 0px 6px -6px black; */
   box-shadow: -8px 0px 7px -6px rgba(167, 167, 167, 0.548);
+}
+.pousseoir02{
+  border-right: solid 6px $color07; 
+  // border-radius: 10px 0 0 10px;
+  background: linear-gradient(90deg, $color00, $color00, #ffffff);
+  padding: 20px;
+  /* box-shadow: -8px 0px 6px -6px black; */
+  box-shadow: 8px 0px -7px -6px rgba(167, 167, 167, 0.548);
 }
 
 .bann-content{
@@ -400,9 +410,9 @@
   float: left;
   margin-right: 30px;
   border-radius: 5px;
-  background: $color03;
+  background: $color07;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  border: solid 4px $color04;
+  border: solid 4px $color07;
 }
 .prez02{
   position: relative;
@@ -423,58 +433,3 @@
   text-align: right;
 }
 
-
-footer-section{
-  position: relative;
-  display: grid;
-  width: 100%;
-  min-height: 300px;
-  padding: 20px;
-  color: $color03;
-  background-color: $color07;
-  grid-template-columns: 50% 20% 30%;
-  grid-template-areas: "fi fm fc";
-}
-.footer-section h2, .footer-section h3{
-  color: $color04;
-}
-.footer-section a{
-  color: $color03;
-}
-.footer-section ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.footer-info{
-  position: relative;
-  grid-area: fi;
-  margin: 10px;
-  padding: 10px;
-}
-.footer-menu{
-  position: relative;
-  grid-area: fm;
-  margin: 10px;
-  padding: 10px;
-}
-.footer-contact{
-  position: relative;
-  grid-area: fc;
-  margin: 10px;
-  padding: 10px;
-}
-
-.myfb, .myli{
-  font-size: 2rem;
-  padding: 5px;
-  border-radius: 5px;
-}
-.myfb:hover, .myli:hover{
-  color: $color07;
-  background-color: $color04;
-}
-
-.mobile-menulist{
-  display: none;
-}

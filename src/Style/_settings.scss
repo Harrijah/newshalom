@@ -11,6 +11,7 @@ $color07: #ccb59b;
 $color08: #23293D;
 $color09: #75151E;
 $color10: #753649;
+$color11: #31374a;
 
 *{
     box-sizing: border-box;
@@ -47,6 +48,14 @@ body{
   display: inline-block;
   width: 150px;
   border-bottom: double 5px $color07;
+}
+.border-me{
+  background-color: $color07;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: solid 1px $color07;
+  border-radius: 5px;
 }
 
 // ----------------------- menu
@@ -121,4 +130,78 @@ body{
   a{
     color: $color03;
   }
+
+
+
+  /* ------------------ Footer -------------------------- */
   
+.footer-section{
+  position: relative;
+  display: grid;
+  width: 100%;
+  min-height: 300px;
+  padding: 20px;
+  color: $color07;
+  // background-color: $color10;
+  background-color: $color11;
+  grid-template-columns: 50% 20% 30%;
+  grid-template-areas: "fi fm fc";
+  // &::after{
+  //   content:'';
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   background-color: #00000074;
+  //   z-index: 0;
+
+  // }
+}
+.footer-section h2, .footer-section h3, .footer-section p, .footer-section li{
+  color: $color04;
+  z-index: 2;
+}
+.footer-section a{
+  color: $color03;
+  z-index: 2;
+}
+.footer-section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+.footer-info{
+  position: relative;
+  grid-area: fi;
+  margin: 10px;
+  padding: 10px;
+  z-index: 2;
+}
+.footer-menu{
+  position: relative;
+  grid-area: fm;
+  margin: 10px;
+  padding: 10px;
+  z-index: 2;
+}
+.footer-contact{
+  position: relative;
+  grid-area: fc;
+  margin: 10px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.myfb, .myli{
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+.myfb:hover, .myli:hover{
+  color: $color07;
+  background-color: $color04;
+}
+
+.mobile-menulist{
+  display: none;
+}
