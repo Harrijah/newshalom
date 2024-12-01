@@ -25,7 +25,7 @@ const Banneerhome04 = () => {
                                 L'équipe de Shalom - Maison d'Accueil est composée d'un docteur en médecine, coordonnateur des activités au niveau du Centre, également coach en <b>Nutrithérapie</b>, d'un coach en <b>Santé Bien-être</b> et d'un personnel chargé du développement psychosocial du patient en internat et de la stimulation cognitive. Shalom - Maison d'Accueil est fière de son approche innovante et idéale pour prendre soin des parents, offrant un lieu de vie chaleureux, confortable et sécurisé pour les personnes âgées, et invite les gens à découvrir leur formule en internat et à se joindre à leur famille.
 
                                 </p>
-                                <button className="mybutton01">En savoir plus</button>
+                                <button className="mybutton01">En savoir plus </button>
                             </div>
                         </div>
                     </div>
